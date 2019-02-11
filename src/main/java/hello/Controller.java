@@ -3,7 +3,6 @@ package hello;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 
 @RestController
