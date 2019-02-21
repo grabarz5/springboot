@@ -17,8 +17,8 @@ public class Computer {
         return this.ip;
     }
 
-    public void setIp(String cpu){
-        this.ip = cpu;
+    public void setIp(String ip){
+        this.ip = ip;
     }
 
     public String getMac(){
@@ -29,7 +29,7 @@ public class Computer {
         this.mac = mac;
     }
 
-    public Computer(String name, String ip, String mac){
+    public Computer(String name, String ip, String mac) {
         this.name = name;
         this.ip = ip;
         this.mac = mac;

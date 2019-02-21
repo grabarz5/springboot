@@ -1,5 +1,6 @@
 package hello;
 
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
@@ -15,10 +16,14 @@ public class Controller {
         return "Hello!";
     }
 
-    @RequestMapping(value = "/add", method = RequestMethod.POST)
-    @ResponseBody
-    public List add(String name, String ip, String mac) {
-        return Arrays.asList("result",db.set(name, ip, mac));
+//    @RequestMapping(value = "/add", method = RequestMethod.POST)
+//    @ResponseBody
+//    public List add(String name, String ip, String mac) {
+//        return Arrays.asList("result",db.set(name, ip, mac));
+//    }
+    @PutMapping(value = "/add", consumes = MediaType.APPLICATION_JSON_VALUE)
+    public List add(@RequestBody Computer pc){
+        return Arrays.asList("result",db.set(pc.getName(),pc.getIp(),pc.getMac()));
     }
 
     @RequestMapping(value = "/list", method = RequestMethod.GET)
