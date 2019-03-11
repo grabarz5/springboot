@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body class="bg-dark">
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-12">
+				<div class="card">
+					<div class="card-header">
+						SOMETHING REST API TEST
+					</div>
+					<div class="card-body">
+						<input type="text" class="form-control" placeholder="API IP address or hostname (root)" id="apiLocation" value="http://localhost:8080">
+						<small class="form-text text-muted">API Location (IP address or hostname with port)</small>
+						<div class="row">
+							<div class="col-4 p-3">
+								<h4>ADD NEW DEVICE</h4>
+								<form id="addDeviceForm">
+									<div class="form-group">
+										<label for="inputName">Device name</label>
+										<input type="text" class="form-control" id="inputName" placeholder="ex. ASUS" name="inputName">
+									</div>
+									<div class="form-group">
+										<label for="inputIP">IP address</label>
+										<input type="text" class="form-control" id="inputIP" placeholder="ex. 127.0.0.1" name="inputIP">
+									</div>
+									<div class="form-group">
+										<label for="inputMAC">MAC address</label>
+										<input type="text" class="form-control" id="inputMAC" placeholder="ex. AA:BB:CC:DD:EE:FF" name="inputMAC">
+									</div>
+									<div class="form-row" style="justify-content:space-between;">
+										<h5 class="p-1 invisible">{response}</h5>
+										<button type="button" class="btn btn-primary" onclick="addDevice()">Save</button>
+									</div>
+								</form>
+							</div>
+							<div class="col-8 border-left p-3">
+								<h4>DEVICES LIST</h4>
+								<table class="table">
+									<thead>
+										<tr>
+											<th scope="col">#</th>
+											<th scope="col">Name</th>
+											<th scope="col">IP</th>
+											<th scope="col">MAC</th>
+										</tr>
+									</thead>
+									<tbody id="devicesList">
+									</tbody>
+								</table>
+								<div style="text-align: right;">
+									<button type="button" class="btn btn-danger" onclick="removeAllDevices()">Remove all devices</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="script.js"></script>
+
+</html>

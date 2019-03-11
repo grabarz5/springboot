@@ -1,7 +1,7 @@
 package hello;
 
 import java.sql.*;
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Database {
@@ -59,23 +59,33 @@ public class Database {
         return true;
     }
 
-    public List<Computer> get() {
-        List<Computer> computers = new LinkedList<Computer>();
+    public List get() {
+        List<Computer> computers = new ArrayList<Computer>();
         try {
             ResultSet result = stat.executeQuery("SELECT * FROM computers");
-            int id;
-            String name, ip, mac;
             while(result.next()) {
-                id = result.getInt("id");
-                name = result.getString("name");
-                ip = result.getString("ip");
-                mac = result.getString("mac");
-                computers.add(new Computer(name, ip, mac));
+                Computer pc = new Computer(
+                        result.getString("name"),
+                        result.getString("ip"),
+                        result.getString("mac"));
+                computers.add(pc);
             }
         } catch (SQLException e) {
             e.printStackTrace();
             return null;
         }
         return computers;
+    }
+
+    public boolean clean(){
+        try {
+            stat.execute("DELETE FROM computers");
+            stat.execute("DELETE FROM sqlite_sequence WHERE name='computers'");
+        } catch (SQLException e) {
+            System.err.println("Błąd przy czyszczeniu tabeli");
+            e.printStackTrace();
+            return false;
+        }
+        return true;
     }
 }
