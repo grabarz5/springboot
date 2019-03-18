@@ -1,4 +1,8 @@
 var apiLocation, deviceList;
+
+let div = document.getElementById('deviceList');
+$("#deviceList")
+
 $(document).ready(() => {
 	apiLocation = $('#apiLocation')[0].value;
 	deviceList = $('#devicesList');
@@ -62,4 +66,4 @@ const addListDevice = (devices) => {
 	deviceList.html(html);
 }
 
-const reloadDevices = () => loadDevices();
+const reloadDevices = () => location.reload();

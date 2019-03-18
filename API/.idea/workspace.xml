@@ -10,45 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad5cabd3-3a9f-4afe-83a2-742bdaaff21e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gradle/4.10/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/4.10/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/4.10/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/4.10/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baza.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/artifacts/pawel_grabowski_jar/pawel.grabowski.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/artifacts/pawel_grabowski_main_jar/pawel.grabowski.main.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/classes/META-INF/pawel.grabowski.main.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/classes/hello/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/classes/hello/Computer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/classes/hello/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/classes/hello/Database.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/hello/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/hello/Computer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/hello/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/hello/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WEB/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../WEB/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -103,12 +66,6 @@
                   <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#445#446#0" expanded="true" />
-                    <element signature="e#467#468#0" expanded="true" />
-                    <element signature="e#868#869#0" expanded="true" />
-                    <element signature="e#890#891#0" expanded="true" />
-                    <element signature="e#1011#1012#0" expanded="true" />
-                    <element signature="e#1079#1080#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -153,8 +110,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="394" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -164,9 +121,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,9 +273,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="394" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15938166" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -327,7 +285,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.3261105" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.3261105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
